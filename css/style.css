@@ -36,7 +36,7 @@ body {
 header {
     background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
     color: white;
-    padding: 1.5rem 1rem 1rem;
+    padding: 0.75rem 1rem 0.5rem;
     text-align: center;
     box-shadow: 0 2px 8px var(--shadow);
     position: sticky;
@@ -45,13 +45,13 @@ header {
 }
 
 header h1 {
-    font-size: 1.75rem;
+    font-size: 1.35rem;
     font-weight: 600;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.1rem;
 }
 
 .subtitle {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     opacity: 0.9;
 }
 
@@ -64,7 +64,7 @@ header h1 {
     background: white;
     box-shadow: 0 2px 4px var(--shadow);
     position: sticky;
-    top: 5rem;
+    top: 3.1rem;
     z-index: 90;
     -webkit-overflow-scrolling: touch;
 }
@@ -94,6 +94,33 @@ header h1 {
 .category-btn.active {
     background: var(--primary);
     color: white;
+}
+
+/* Search Input */
+.search-container {
+    padding: 0 1rem 1rem;
+    background: white;
+    position: sticky;
+    top: calc(3.1rem + 4rem);
+    z-index: 85;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: var(--text);
+    background: #fafafa;
+    transition: border-color 0.2s, background 0.2s;
+    -webkit-appearance: none;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--primary);
+    background: white;
 }
 
 /* Phrases Container */

@@ -3,6 +3,7 @@
 class PhraseApp {
     constructor() {
         this.currentCategory = 'all';
+        this.searchQuery = '';
         this.phrases = PHRASES;
         this.init();
     }
@@ -10,15 +11,26 @@ class PhraseApp {
     init() {
         this.renderPhrases();
         this.setupCategoryFilters();
+        this.setupSearchFilter();
     }
 
     renderPhrases(category = 'all') {
         const container = document.getElementById('phrases-container');
 
         // Filter phrases by category
-        const filteredPhrases = category === 'all'
+        let filteredPhrases = category === 'all'
             ? this.phrases
             : this.phrases.filter(p => p.category === category);
+
+        // Filter by search query
+        if (this.searchQuery.trim()) {
+            const query = this.searchQuery.toLowerCase();
+            filteredPhrases = filteredPhrases.filter(p =>
+                p.pt.toLowerCase().includes(query) ||
+                p.en.toLowerCase().includes(query) ||
+                p.ipa.toLowerCase().includes(query)
+            );
+        }
 
         // Clear container
         container.innerHTML = '';
@@ -27,7 +39,7 @@ class PhraseApp {
         if (filteredPhrases.length === 0) {
             container.innerHTML = `
                 <div class="empty-state">
-                    <p>No phrases in this category yet</p>
+                    <p>${this.searchQuery ? 'No phrases match your search' : 'No phrases in this category yet'}</p>
                 </div>
             `;
             return;
@@ -89,6 +101,15 @@ class PhraseApp {
                     block: 'start'
                 });
             });
+        });
+    }
+
+    setupSearchFilter() {
+        const searchInput = document.getElementById('search-input');
+
+        searchInput.addEventListener('input', (e) => {
+            this.searchQuery = e.target.value;
+            this.renderPhrases(this.currentCategory);
         });
     }
 }
