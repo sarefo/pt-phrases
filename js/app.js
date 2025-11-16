@@ -68,15 +68,16 @@ class PhraseApp {
 
     getCategoryLabel(category) {
         const labels = {
-            'basics': '🗣️ Basics',
-            'navigation': '🗺️ Navigation',
-            'prices': '💰 Prices',
-            'boats': '⛵ Boats',
-            'food': '🍎 Food',
-            'time': '⏰ Time',
-            'accommodation': '🏠 Accommodation',
-            'problems': '⚠️ Problems',
-            'social': '👥 Social'
+            'basics': 'Basics',
+            'navigation': 'Navigation',
+            'prices': 'Prices',
+            'boats': 'Boats',
+            'food': 'Food',
+            'time': 'Time',
+            'numbers': 'Numbers',
+            'accommodation': 'Accommodation',
+            'problems': 'Problems',
+            'social': 'Social'
         };
         return labels[category] || category;
     }

@@ -349,169 +349,169 @@ const PHRASES = [
         pt: "Um / Uma",
         ipa: "ũ / ˈũ.mɐ",
         en: "One (m/f)",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Dois / Duas",
         ipa: "dojs / ˈdu.ɐs",
         en: "Two (m/f)",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Três",
         ipa: "tɾes",
         en: "Three",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Quatro",
         ipa: "ˈkwa.tɾu",
         en: "Four",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Cinco",
         ipa: "ˈsĩ.ku",
         en: "Five",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Seis",
         ipa: "sejs",
         en: "Six",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Sete",
         ipa: "ˈse.tʃi",
         en: "Seven",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Oito",
         ipa: "ˈoj.tu",
         en: "Eight",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Nove",
         ipa: "ˈnɔ.vi",
         en: "Nine",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Dez",
         ipa: "dɛs",
         en: "Ten",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Onze",
         ipa: "ˈõ.zi",
         en: "Eleven",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Doze",
         ipa: "ˈdɔ.zi",
         en: "Twelve",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Treze",
         ipa: "ˈtɾe.zi",
         en: "Thirteen",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Quatorze",
         ipa: "kwaˈtoʁ.zi",
         en: "Fourteen",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Quinze",
         ipa: "ˈkĩ.zi",
         en: "Fifteen",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Dezesseis",
         ipa: "de.zesˈsejs",
         en: "Sixteen",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Dezessete",
         ipa: "de.zeseˈte.tʃi",
         en: "Seventeen",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Dezoito",
         ipa: "deˈzoj.tu",
         en: "Eighteen",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Dezenove",
         ipa: "de.zeˈnɔ.vi",
         en: "Nineteen",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Vinte",
         ipa: "ˈvĩ.tʃi",
         en: "Twenty",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Trinta",
         ipa: "ˈtɾĩ.tɐ",
         en: "Thirty",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Quarenta",
         ipa: "kwaˈɾẽ.tɐ",
         en: "Forty",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Cinquenta",
         ipa: "sĩˈkwẽ.tɐ",
         en: "Fifty",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Sessenta",
         ipa: "seˈsẽ.tɐ",
         en: "Sixty",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Setenta",
         ipa: "seˈtẽ.tɐ",
         en: "Seventy",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Oitenta",
         ipa: "ojˈtẽ.tɐ",
         en: "Eighty",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Noventa",
         ipa: "noˈvẽ.tɐ",
         en: "Ninety",
-        category: "basics"
+        category: "numbers"
     },
     {
         pt: "Cem",
         ipa: "sẽj",
         en: "One hundred",
-        category: "basics"
+        category: "numbers"
     },
 
     // Accommodation
