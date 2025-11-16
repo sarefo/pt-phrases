@@ -522,9 +522,9 @@ const PHRASES = [
         category: "accommodation"
     },
     {
-        pt: "Tem quarto?",
-        ipa: "tẽj ˈkwaʁ.tu",
-        en: "Do you have a room?",
+        pt: "Tem quarto barato?",
+        ipa: "tẽj ˈkwaʁ.tu bɐˈɾa.tu",
+        en: "Do you have cheap rooms?",
         category: "accommodation"
     },
     {
@@ -534,27 +534,27 @@ const PHRASES = [
         category: "accommodation"
     },
     {
-        pt: "Quarto para uma pessoa",
-        ipa: "ˈkwaʁ.tu ˈpa.ɾɐ ˈũ.mɐ peˈso.ɐ",
-        en: "Room for one person",
+        pt: "Quarto de solteiro",
+        ipa: "ˈkwaʁ.tu dʒi solˈtej.ɾu",
+        en: "Single room",
         category: "accommodation"
     },
     {
-        pt: "Quarto para duas pessoas",
-        ipa: "ˈkwaʁ.tu ˈpa.ɾɐ ˈdu.ɐs peˈso.ɐs",
-        en: "Room for two people",
+        pt: "Quarto compartilhado",
+        ipa: "ˈkwaʁ.tu kõpaʁtʃiˈʎa.du",
+        en: "Shared room",
         category: "accommodation"
     },
     {
-        pt: "Tem ar condicionado?",
-        ipa: "tẽj aʁ kõdʒioˈna.du",
-        en: "Do you have AC?",
+        pt: "Tem algo abaixo de... reais?",
+        ipa: "tẽj ˈaw.ɡu ɐbɐˈʃo dʒi ʁeˈajs",
+        en: "Do you have anything under... reais?",
         category: "accommodation"
     },
     {
-        pt: "Tem água quente?",
-        ipa: "tẽj ˈa.ɡwɐ ˈkwẽ.tʃi",
-        en: "Do you have hot water?",
+        pt: "Qual é o preço mais barato?",
+        ipa: "ˈkwaw ɛ u ˈpɾe.su majs bɐˈɾa.tu",
+        en: "What's the cheapest price?",
         category: "accommodation"
     },
     {
