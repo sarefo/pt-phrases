@@ -61,7 +61,10 @@ class PhraseApp {
             'prices': '💰 Prices',
             'boats': '⛵ Boats',
             'food': '🍎 Food',
-            'time': '⏰ Time'
+            'time': '⏰ Time',
+            'accommodation': '🏠 Accommodation',
+            'problems': '⚠️ Problems',
+            'social': '👥 Social'
         };
         return labels[category] || category;
     }

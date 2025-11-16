@@ -376,9 +376,87 @@ const PHRASES = [
         category: "basics"
     },
     {
+        pt: "Seis",
+        ipa: "sejs",
+        en: "Six",
+        category: "basics"
+    },
+    {
+        pt: "Sete",
+        ipa: "ˈse.tʃi",
+        en: "Seven",
+        category: "basics"
+    },
+    {
+        pt: "Oito",
+        ipa: "ˈoj.tu",
+        en: "Eight",
+        category: "basics"
+    },
+    {
+        pt: "Nove",
+        ipa: "ˈnɔ.vi",
+        en: "Nine",
+        category: "basics"
+    },
+    {
         pt: "Dez",
         ipa: "dɛs",
         en: "Ten",
+        category: "basics"
+    },
+    {
+        pt: "Onze",
+        ipa: "ˈõ.zi",
+        en: "Eleven",
+        category: "basics"
+    },
+    {
+        pt: "Doze",
+        ipa: "ˈdɔ.zi",
+        en: "Twelve",
+        category: "basics"
+    },
+    {
+        pt: "Treze",
+        ipa: "ˈtɾe.zi",
+        en: "Thirteen",
+        category: "basics"
+    },
+    {
+        pt: "Quatorze",
+        ipa: "kwaˈtoʁ.zi",
+        en: "Fourteen",
+        category: "basics"
+    },
+    {
+        pt: "Quinze",
+        ipa: "ˈkĩ.zi",
+        en: "Fifteen",
+        category: "basics"
+    },
+    {
+        pt: "Dezesseis",
+        ipa: "de.zesˈsejs",
+        en: "Sixteen",
+        category: "basics"
+    },
+    {
+        pt: "Dezessete",
+        ipa: "de.zeseˈte.tʃi",
+        en: "Seventeen",
+        category: "basics"
+    },
+    {
+        pt: "Dezoito",
+        ipa: "deˈzoj.tu",
+        en: "Eighteen",
+        category: "basics"
+    },
+    {
+        pt: "Dezenove",
+        ipa: "de.zeˈnɔ.vi",
+        en: "Nineteen",
         category: "basics"
     },
     {
@@ -388,9 +466,291 @@ const PHRASES = [
         category: "basics"
     },
     {
+        pt: "Trinta",
+        ipa: "ˈtɾĩ.tɐ",
+        en: "Thirty",
+        category: "basics"
+    },
+    {
+        pt: "Quarenta",
+        ipa: "kwaˈɾẽ.tɐ",
+        en: "Forty",
+        category: "basics"
+    },
+    {
+        pt: "Cinquenta",
+        ipa: "sĩˈkwẽ.tɐ",
+        en: "Fifty",
+        category: "basics"
+    },
+    {
+        pt: "Sessenta",
+        ipa: "seˈsẽ.tɐ",
+        en: "Sixty",
+        category: "basics"
+    },
+    {
+        pt: "Setenta",
+        ipa: "seˈtẽ.tɐ",
+        en: "Seventy",
+        category: "basics"
+    },
+    {
+        pt: "Oitenta",
+        ipa: "ojˈtẽ.tɐ",
+        en: "Eighty",
+        category: "basics"
+    },
+    {
+        pt: "Noventa",
+        ipa: "noˈvẽ.tɐ",
+        en: "Ninety",
+        category: "basics"
+    },
+    {
         pt: "Cem",
         ipa: "sẽj",
         en: "One hundred",
         category: "basics"
+    },
+
+    // Accommodation
+    {
+        pt: "Onde é a pousada?",
+        ipa: "ˈõ.dʒi ɛ ɐ pouˈza.dɐ",
+        en: "Where is the hostel/inn?",
+        category: "accommodation"
+    },
+    {
+        pt: "Tem quarto?",
+        ipa: "tẽj ˈkwaʁ.tu",
+        en: "Do you have a room?",
+        category: "accommodation"
+    },
+    {
+        pt: "Quanto é a noite?",
+        ipa: "ˈkwɐ̃.tu ɛ ɐ ˈnoj.tʃi",
+        en: "How much per night?",
+        category: "accommodation"
+    },
+    {
+        pt: "Quarto para uma pessoa",
+        ipa: "ˈkwaʁ.tu ˈpa.ɾɐ ˈũ.mɐ peˈso.ɐ",
+        en: "Room for one person",
+        category: "accommodation"
+    },
+    {
+        pt: "Quarto para duas pessoas",
+        ipa: "ˈkwaʁ.tu ˈpa.ɾɐ ˈdu.ɐs peˈso.ɐs",
+        en: "Room for two people",
+        category: "accommodation"
+    },
+    {
+        pt: "Tem ar condicionado?",
+        ipa: "tẽj aʁ kõdʒioˈna.du",
+        en: "Do you have AC?",
+        category: "accommodation"
+    },
+    {
+        pt: "Tem água quente?",
+        ipa: "tẽj ˈa.ɡwɐ ˈkwẽ.tʃi",
+        en: "Do you have hot water?",
+        category: "accommodation"
+    },
+    {
+        pt: "Tem WiFi?",
+        ipa: "tẽj wi.fi",
+        en: "Do you have WiFi?",
+        category: "accommodation"
+    },
+    {
+        pt: "Posso entrar agora?",
+        ipa: "ˈpɔ.su ẽˈtɾaʁ ɐˈɡɔ.ɾɐ",
+        en: "Can I check in now?",
+        category: "accommodation"
+    },
+    {
+        pt: "Que horas é o checkout?",
+        ipa: "ki ˈɔ.ɾɐs ɛ u ˈtʃɛk.awt",
+        en: "What time is checkout?",
+        category: "accommodation"
+    },
+    {
+        pt: "Tem cozinha?",
+        ipa: "tẽj kuˈzĩ.ɲɐ",
+        en: "Do you have a kitchen?",
+        category: "accommodation"
+    },
+    {
+        pt: "Posso lavar roupa?",
+        ipa: "ˈpɔ.su laˈvaʁ ˈʁo.pɐ",
+        en: "Can I wash clothes?",
+        category: "accommodation"
+    },
+
+    // Problem Solving
+    {
+        pt: "Ajuda!",
+        ipa: "ɐˈʒu.dɐ",
+        en: "Help!",
+        category: "problems"
+    },
+    {
+        pt: "Tenho um problema",
+        ipa: "ˈtẽ.ɲu ũ pɾoˈble.mɐ",
+        en: "I have a problem",
+        category: "problems"
+    },
+    {
+        pt: "Estou perdido / perdida",
+        ipa: "esˈtow peʁˈdʒi.du / peʁˈdʒi.dɐ",
+        en: "I'm lost (m/f)",
+        category: "problems"
+    },
+    {
+        pt: "Perdi meu passaporte",
+        ipa: "peʁˈdʒi mew pɐsɐˈpoʁ.tʃi",
+        en: "I lost my passport",
+        category: "problems"
+    },
+    {
+        pt: "Perdi meu dinheiro",
+        ipa: "peʁˈdʒi mew dʒĩˈɲej.ɾu",
+        en: "I lost my money",
+        category: "problems"
+    },
+    {
+        pt: "Meu telefone está quebrado",
+        ipa: "mew teˈle.fo.ni esˈta keˈbɾa.du",
+        en: "My phone is broken",
+        category: "problems"
+    },
+    {
+        pt: "Preciso de policia",
+        ipa: "pɾeˈsĩ.zu dʒi puˈlʒi.sɐ",
+        en: "I need police",
+        category: "problems"
+    },
+    {
+        pt: "É seguro aqui?",
+        ipa: "ɛ seˈɡu.ɾu ɐˈki",
+        en: "Is it safe here?",
+        category: "problems"
+    },
+    {
+        pt: "Não tenho dinheiro",
+        ipa: "nɐ̃w ˈtẽ.ɲu dʒĩˈɲej.ɾu",
+        en: "I don't have money",
+        category: "problems"
+    },
+    {
+        pt: "Pode me ajudar?",
+        ipa: "ˈpɔ.dʒi mi ɐʒuˈdaʁ",
+        en: "Can you help me?",
+        category: "problems"
+    },
+    {
+        pt: "Não me sinta bem",
+        ipa: "nɐ̃w mi ˈsĩ.tɐ bẽj",
+        en: "I don't feel well",
+        category: "problems"
+    },
+    {
+        pt: "Preciso de médico",
+        ipa: "pɾeˈsĩ.zu dʒi ˈme.dʒi.ku",
+        en: "I need a doctor",
+        category: "problems"
+    },
+
+    // Social Interaction
+    {
+        pt: "Qual é seu nome?",
+        ipa: "ˈkwaw ɛ sew ˈno.mi",
+        en: "What's your name?",
+        category: "social"
+    },
+    {
+        pt: "Meu nome é...",
+        ipa: "mew ˈno.mi ɛ",
+        en: "My name is...",
+        category: "social"
+    },
+    {
+        pt: "Prazer",
+        ipa: "pɾaˈzeʁ",
+        en: "Nice to meet you",
+        category: "social"
+    },
+    {
+        pt: "De onde você é?",
+        ipa: "dʒi ˈõ.dʒi voˈse ɛ",
+        en: "Where are you from?",
+        category: "social"
+    },
+    {
+        pt: "Eu sou de...",
+        ipa: "ew sow dʒi",
+        en: "I'm from...",
+        category: "social"
+    },
+    {
+        pt: "Você é turista?",
+        ipa: "voˈse ɛ tuˈɾis.tɐ",
+        en: "Are you a tourist?",
+        category: "social"
+    },
+    {
+        pt: "Você mora aqui?",
+        ipa: "voˈse ˈmɔ.ɾɐ ɐˈki",
+        en: "Do you live here?",
+        category: "social"
+    },
+    {
+        pt: "Quanto tempo você está aqui?",
+        ipa: "ˈkwɐ̃.tu ˈtẽ.pu voˈse esˈta ɐˈki",
+        en: "How long are you here?",
+        category: "social"
+    },
+    {
+        pt: "Que país você é?",
+        ipa: "ki paˈis voˈse ɛ",
+        en: "What country are you from?",
+        category: "social"
+    },
+    {
+        pt: "Você tem família aqui?",
+        ipa: "voˈse tẽj fɐˈmʒi.lɐ ɐˈki",
+        en: "Do you have family here?",
+        category: "social"
+    },
+    {
+        pt: "Isto é delicioso!",
+        ipa: "ˈis.tu ɛ deliˈsjo.zu",
+        en: "This is delicious!",
+        category: "social"
+    },
+    {
+        pt: "Você é muito legal",
+        ipa: "voˈse ɛ ˈmũj.tu leˈɡaw",
+        en: "You're very cool",
+        category: "social"
+    },
+    {
+        pt: "Que interessante!",
+        ipa: "ki ĩ.teɾeˈsɐ̃.tʃi",
+        en: "That's interesting!",
+        category: "social"
+    },
+    {
+        pt: "Você fala español?",
+        ipa: "voˈse ˈfa.lɐ espaˈɲol",
+        en: "Do you speak Spanish?",
+        category: "social"
+    },
+    {
+        pt: "Qual é o seu trabalho?",
+        ipa: "ˈkwaw ɛ u sew tɾaˈbɐ.lʃu",
+        en: "What's your job?",
+        category: "social"
     }
 ];
